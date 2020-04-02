@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1585839122 source:c:\facu\programacion estructurada\menudulariz\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1585839122 source:c:\facu\programacion estructurada\menudulariz\suma.c
+
