@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1586288982 source:c:\facu\programacion estructurada\u3-1\funciones.c
+	"declaraciones.h"
+
+1586288909 source:c:\facu\programacion estructurada\u3-1\main.c
+	"declaraciones.h"
+
+1586288937 c:\facu\programacion estructurada\u3-1\declaraciones.h
+	<Windows.h>
+	<stdio.h>
+
