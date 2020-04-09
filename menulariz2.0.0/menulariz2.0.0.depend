@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1586446697 source:c:\facu\programacion estructurada\menulariz2.0.0\main.c
+	"funciones+librerias.h"
+
+1586446551 source:c:\facu\programacion estructurada\menulariz2.0.0\funciones+librerias.c
+	<stdio.h>
+	<stdlib.h>
+
+1586446770 c:\facu\programacion estructurada\menulariz2.0.0\funciones+librerias.h
+	<stdio.h>
+	<stdlib.h>
+
+1586447343 source:c:\facu\programacion estructurada\menulariz2.0.0\implementacionfunciones.c
+	"DeclaraFunciones+librerias.h"
+
+1586446770 c:\facu\programacion estructurada\menulariz2.0.0\declarafunciones+librerias.h
+	<stdio.h>
+	<stdlib.h>
+
