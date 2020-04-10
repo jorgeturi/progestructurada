@@ -29,18 +29,22 @@ Funcion tecla_para_continuar ()
 	Leer espero_tecla
 FinFuncion
 
+Funcion mostrar_menu()
+	Escribir 'Menú de operaciones'
+	Escribir '   1. Suma'
+	Escribir '   2. Resta'
+	Escribir '   3. Multiplicación'
+	Escribir '   4. División'
+	Escribir '   0. Salir'
+	Escribir ''
+	Escribir 'elija su opcion'
+FinFuncion
+
 Algoritmo sin_titulo
 	Definir opcion_elegida Como Entero
 	opcion_elegida <- 20
 	Mientras (opcion_elegida!=0) Hacer
-		Escribir 'Menú de operaciones'
-		Escribir '   1. Suma'
-		Escribir '   2. Resta'
-		Escribir '   3. Multiplicación'
-		Escribir '   4. División'
-		Escribir '   0. Salir'
-		Escribir ''
-		Escribir 'elija su opcion'
+		mostrar_menu()
 		Leer opcion_elegida
 		Segun opcion_elegida  Hacer
 			1:
