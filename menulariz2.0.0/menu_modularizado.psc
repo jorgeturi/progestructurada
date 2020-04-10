@@ -31,14 +31,14 @@ FinFuncion
 
 Algoritmo sin_titulo
 	Definir opcion_elegida Como Entero
-	opcion_elegida <- 0
-	Mientras (opcion_elegida!=5) Hacer
+	opcion_elegida <- 20
+	Mientras (opcion_elegida!=0) Hacer
 		Escribir 'Menú de operaciones'
 		Escribir '   1. Suma'
 		Escribir '   2. Resta'
 		Escribir '   3. Multiplicación'
 		Escribir '   4. División'
-		Escribir '   5. Salir'
+		Escribir '   0. Salir'
 		Escribir ''
 		Escribir 'elija su opcion'
 		Leer opcion_elegida
@@ -71,12 +71,12 @@ Algoritmo sin_titulo
 				mostrar_resultado(resultado)
 				tecla_para_continuar()
 				Borrar Pantalla
-			5:
+			0:
 				Escribir 'seguro que queres salir (s/n)'
 				Leer confirmacion
 				Si (confirmacion=='s' O confirmacion=='S') Entonces
 					Escribir 'termina el programa'
-					opcion_elegida=5
+					opcion_elegida=0
 				SiNo
 					Escribir 'entonces volvemos'
 					opcion_elegida <- 80
