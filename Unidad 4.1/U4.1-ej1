@@ -1,0 +1,23 @@
+Algoritmo U4_1_ej1
+	caracter_ingresado Es Caracter
+	devuelvo Es Entero
+	Escribir "ingrese un caracter"
+	leer caracter_ingresado
+	segun caracter_ingresado hacer
+		"A":
+			devuelvo=1
+		"B":
+			devuelvo=2
+		"C":
+			devuelvo=3
+		"D":
+			devuelvo=4
+		"E":
+			devuelvo=5
+		De Otro Modo:
+			devuelvo=0
+	fin segun 
+	escribir "devuelvo ",devuelvo 
+	
+	
+FinAlgoritmo

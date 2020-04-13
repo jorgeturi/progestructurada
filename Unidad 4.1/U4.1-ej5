@@ -1,0 +1,32 @@
+Algoritmo sin_titulo
+	pedir_parte_real()
+	num1re=leer_parte_real()
+	pedir_parte_imaginaria()
+	num1im=leer_parte_imaginaria()
+	pedir_parte_real()
+	num2re=leer_parte_real()
+	pedir_parte_imaginaria()
+	num2im=leer_parte_imaginaria()
+	
+	Escribir "numero 1", num1re,num1im
+	
+FinAlgoritmo
+
+funcion pedir_parte_real()
+	Escribir "ingrese la parte real"
+FinFuncion
+
+funcion p<-leer_parte_real()
+	leer leo_real
+FinFuncion
+
+funcion pedir_parte_imaginaria()
+	Escribir "ingrese la parte imaginaria"
+FinFuncion
+
+funcion i<-leer_parte_imaginaria()
+	leer leo_imaginaria
+FinFuncion
+
+
+

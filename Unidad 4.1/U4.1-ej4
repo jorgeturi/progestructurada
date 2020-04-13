@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	pedir_caracter
+	cara1=leer_caracter
+	pedir_caracter
+	cara2=leer_caracter
+	pedir_caracter
+	cara3=leer_caracter
+	
+	escribir"en orden",cara1,cara2,cara3
+FinAlgoritmo
+
+funcion pedir_caracter()
+	Escribir "ingrese 1 caracter"
+FinFuncion
+
+funcion ascii<-leer_caracter()
+	leer leo_ingresado
+FinFuncion

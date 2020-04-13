@@ -1,0 +1,42 @@
+funcion escribir_matricula ()
+	escribir "matricula",matricula
+FinFuncion
+
+Algoritmo sin_titulo
+	escribir "ingrese la matricula"
+	leer matricula
+	escribir "ingrese semestre en el que se encuentra"
+	leer semestre
+	escribir "ingrese su promedio"
+	leer promedio
+	si (semestre > 6) y (promedio >=8.8)
+		escribir_matricula()
+		escribir "ingenieria"
+		aceptado=1
+	FinSi
+	
+	si (semestre >= 6) y (promedio >8.5)
+		escribir_matricula()
+		escribir "medicina"
+		aceptado=1
+	FinSi
+	
+	si (semestre > 5) y (promedio >=8.3)
+		escribir_matricula()
+		escribir "licenciatura"
+		aceptado=1
+	FinSi
+	
+	si (semestre > 3) y (promedio >=7.8)
+		escribir_matricula()
+		escribir "tecnico"
+		aceptado=1
+	FinSi
+	
+	si (aceptado==1)
+		escribir"aceptado"
+	SiNo
+		Escribir "rechazado"
+	FinSi
+	
+FinAlgoritmo
